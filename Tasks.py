@@ -284,33 +284,33 @@ def postorder(root):
 # ==========================================
 if __name__ == "__main__":
 
-    print("\n1. Factorial:", factorial(5))
-    print("2. Sum of numbers:", sum_numbers(5))
-    print("3. Power:", power(2, 5))
-    print("4. Count digits:", count_digits(58321))
-    print("5. Sum of digits:", sum_digits(58321))
-    print("6. Reverse number:", reverse_number(12345))
-    print("7. Fibonacci:", fibonacci(7))
-    print("8. GCD:", gcd(48, 18))
-    print("9. Array sum:", array_sum([2, 4, 6, 8]))
-    print("10. Maximum:", find_max([4, 8, 2, 15, 7]))
-    print("11. Occurrences:", count_occurrences([2, 5, 2, 8, 2, 9], 2))
-    print("12. Palindrome:", is_palindrome("level"))
-    print("13. Reverse string:", reverse_string("algorithm"))
+    print("\n1. Factorial: 5 = ", factorial(5))
+    print("2. Sum of numbers: 5 = ", sum_numbers(5))
+    print("3. Power: 2^5 = ", power(2, 5))
+    print("4. Count digits: 58321 = ", count_digits(58321))
+    print("5. Sum of digits: 58321 = ", sum_digits(58321))
+    print("6. Reverse number: 12345 = ", reverse_number(12345))
+    print("7. Fibonacci: 7 = ", fibonacci(7))
+    print("8. GCD: 48 and 18 = ", gcd(48, 18))
+    print("9. Array sum: [2, 4, 6, 8] = ", array_sum([2, 4, 6, 8]))
+    print("10. Maximum: [4, 8, 2, 15, 7] = ", find_max([4, 8, 2, 15, 7]))
+    print("11. Occurrences: [2, 5, 2, 8, 2, 9] with 2 = ", count_occurrences([2, 5, 2, 8, 2, 9], 2))
+    print("12. Palindrome: level = ", is_palindrome("level"))
+    print("13. Reverse string: algorithm = ", reverse_string("algorithm"))
 
-    print("14. Binary search index:",
+    print("14. Binary search index: [2, 4, 7, 10, 15, 21] with 15 = ",
           binary_search([2, 4, 7, 10, 15, 21], 15))
 
-    print("\n15. Tower of Hanoi:")
+    print("\n15. Tower of Hanoi: 3 disks")
     tower_of_hanoi(3, "A", "B", "C")
 
-    print("\n16. All subsets:")
+    print("\n16. All subsets: [1, 2, 3]")
     generate_subsets([1, 2, 3])
 
-    print("\n17. All permutations:")
+    print("\n17. All permutations: 'ABC'")
     generate_permutations("ABC")
 
-    print("\n18. Maze solver:")
+    print("\n18. Maze solver: \n[[0, 1, 0, 0]\n, [0, 0, 0, 1]\n, [1, 0, 0, 0]\n, [0, 0, 0, 0]]\n")
     maze = [
         [0, 1, 0, 0],
         [0, 0, 0, 1],
